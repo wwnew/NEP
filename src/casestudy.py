@@ -12,23 +12,6 @@ import csv
 from utils import *
 from config import *
 
-
-# parser = OptionParser()
-# parser.add_option("-d", "--d", default=500, help="The embedding dimension d")
-# parser.add_option("-n","--n",default=1, help="global norm to be clipped")
-# parser.add_option("-k","--k",default=512,help="The dimension of project matrices k")
-# parser.add_option("-t","--t",default = "o",help="Test scenario")
-# parser.add_option("-r","--r",default = "ten",help="positive negative ratio")
-#
-# (opts, args) = parser.parse_args()
-
-
-
-
-
-
-
-
 class Model(object):
     # domain adaptation model.
     def __init__(self):
